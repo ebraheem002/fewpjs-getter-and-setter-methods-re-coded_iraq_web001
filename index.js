@@ -9,9 +9,9 @@ class Circle {
    return this.radius *2
  }
 
- set a(newOne){
-this.radius = newOne
- }
+
+set this.radius = newOne
+ 
  get circumference(){
    return 2 * Math.PI * this.radius
  }
